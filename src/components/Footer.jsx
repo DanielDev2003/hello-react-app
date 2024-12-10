@@ -9,7 +9,7 @@ import {
 
 const Footer = () => {
   return <footer>
-    <MDBFooter className='bg-light text-center text-white' >
+    <MDBFooter className='bg-transparent text-center text-white' >
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
           <MDBBtn
@@ -73,7 +73,7 @@ const Footer = () => {
         </section>
       </MDBContainer>
 
-      <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
+      <div className='text-center p-3 bg-primary' style={{}}>
         © 2020 Copyright:
         <a className='text-white' href='https://mdbootstrap.com/'>
           MDBootstrap.com
